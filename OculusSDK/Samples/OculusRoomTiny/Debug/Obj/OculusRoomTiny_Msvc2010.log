@@ -1,0 +1,40 @@
+﻿Build started 7/16/2013 5:16:56 PM.
+     1>Project "C:\sophia\Oculus\OculusSDK\Samples\OculusRoomTiny\OculusRoomTiny_Msvc2010.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\Obj\OculusRoomTiny.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../../LibOVR/Include /I../../LibOVR/Src /I../../3rdParty/glext /I"C:\Microsoft DirectX SDK (June 2010)\/Include" /Z7 /nologo /W4 /WX- /MP /Od /Oy- /D OVR_BUILD_DEBUG /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\Obj\\" /Fd"Debug\Obj\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt OculusRoomModel.cpp RenderTiny_D3D1X_Device.cpp RenderTiny_Device.cpp Win32_OculusRoomTiny.cpp
+         OculusRoomModel.cpp
+         RenderTiny_D3D1X_Device.cpp
+         RenderTiny_Device.cpp
+         Win32_OculusRoomTiny.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Debug\Obj\OculusRoomTiny.res" OculusRoomTiny.rc 
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\Obj\OculusRoomTiny.exe.embed.manifest.res" Debug\Obj\OculusRoomTiny_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\sophia\Oculus\OculusSDK\Samples\OculusRoomTiny\Debug\OculusRoomTiny.exe" /INCREMENTAL /NOLOGO /LIBPATH:../../LibOVR/Lib/Win32 /LIBPATH:"C:\Microsoft DirectX SDK (June 2010)\/Lib/x86" libovrd.lib dxgi.lib d3d10.lib d3d11.lib d3dcompiler.lib opengl32.lib winmm.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Obj\OculusRoomTiny.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\sophia\Oculus\OculusSDK\Samples\OculusRoomTiny\Debug\OculusRoomTiny.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\sophia\Oculus\OculusSDK\Samples\OculusRoomTiny\Debug\OculusRoomTiny.lib" /MACHINE:X86 Debug\Obj\OculusRoomTiny.res
+         Debug\Obj\OculusRoomTiny.exe.embed.manifest.res
+         Debug\Obj\OculusRoomModel.obj
+         Debug\Obj\RenderTiny_D3D1X_Device.obj
+         Debug\Obj\RenderTiny_Device.obj
+         Debug\Obj\Win32_OculusRoomTiny.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\Obj\OculusRoomTiny.exe.embed.manifest" /manifest Debug\Obj\OculusRoomTiny.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\Obj\OculusRoomTiny.exe.embed.manifest.res" Debug\Obj\OculusRoomTiny_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\sophia\Oculus\OculusSDK\Samples\OculusRoomTiny\Debug\OculusRoomTiny.exe" /INCREMENTAL /NOLOGO /LIBPATH:../../LibOVR/Lib/Win32 /LIBPATH:"C:\Microsoft DirectX SDK (June 2010)\/Lib/x86" libovrd.lib dxgi.lib d3d10.lib d3d11.lib d3dcompiler.lib opengl32.lib winmm.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Obj\OculusRoomTiny.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\sophia\Oculus\OculusSDK\Samples\OculusRoomTiny\Debug\OculusRoomTiny.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\sophia\Oculus\OculusSDK\Samples\OculusRoomTiny\Debug\OculusRoomTiny.lib" /MACHINE:X86 Debug\Obj\OculusRoomTiny.res
+         Debug\Obj\OculusRoomTiny.exe.embed.manifest.res
+         Debug\Obj\OculusRoomModel.obj
+         Debug\Obj\RenderTiny_D3D1X_Device.obj
+         Debug\Obj\RenderTiny_Device.obj
+         Debug\Obj\Win32_OculusRoomTiny.obj
+         OculusRoomTiny_Msvc2010.vcxproj -> C:\sophia\Oculus\OculusSDK\Samples\OculusRoomTiny\Debug\OculusRoomTiny.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\Obj\OculusRoomTiny.unsuccessfulbuild".
+         Touching "Debug\Obj\OculusRoomTiny.lastbuildstate".
+     1>Done Building Project "C:\sophia\Oculus\OculusSDK\Samples\OculusRoomTiny\OculusRoomTiny_Msvc2010.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.88
